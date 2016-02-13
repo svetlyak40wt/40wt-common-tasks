@@ -27,25 +27,25 @@ Overview
     :alt: Requirements Status
     :target: https://requires.io/github/svetlyak40wt/40wt-common-tasks/requirements/?branch=master
 
-.. |version| image:: https://img.shields.io/pypi/v/40wt-common-tasks-distribution.svg?style=flat
+.. |version| image:: https://img.shields.io/pypi/v/40wt-common-tasks.svg?style=flat
     :alt: PyPI Package latest release
-    :target: https://pypi.python.org/pypi/40wt-common-tasks-distribution
+    :target: https://pypi.python.org/pypi/40wt-common-tasks
 
-.. |downloads| image:: https://img.shields.io/pypi/dm/40wt-common-tasks-distribution.svg?style=flat
+.. |downloads| image:: https://img.shields.io/pypi/dm/40wt-common-tasks.svg?style=flat
     :alt: PyPI Package monthly downloads
-    :target: https://pypi.python.org/pypi/40wt-common-tasks-distribution
+    :target: https://pypi.python.org/pypi/40wt-common-tasks
 
-.. |wheel| image:: https://img.shields.io/pypi/wheel/40wt-common-tasks-distribution.svg?style=flat
+.. |wheel| image:: https://img.shields.io/pypi/wheel/40wt-common-tasks.svg?style=flat
     :alt: PyPI Wheel
-    :target: https://pypi.python.org/pypi/40wt-common-tasks-distribution
+    :target: https://pypi.python.org/pypi/40wt-common-tasks
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/40wt-common-tasks-distribution.svg?style=flat
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/40wt-common-tasks.svg?style=flat
     :alt: Supported versions
-    :target: https://pypi.python.org/pypi/40wt-common-tasks-distribution
+    :target: https://pypi.python.org/pypi/40wt-common-tasks
 
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/40wt-common-tasks-distribution.svg?style=flat
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/40wt-common-tasks.svg?style=flat
     :alt: Supported implementations
-    :target: https://pypi.python.org/pypi/40wt-common-tasks-distribution
+    :target: https://pypi.python.org/pypi/40wt-common-tasks
 
 
 .. end-badges
@@ -59,7 +59,7 @@ Installation
 
 ::
 
-    pip install 40wt-common-tasks-distribution
+    pip install 40wt-common-taskss
 
 Documentation
 =============

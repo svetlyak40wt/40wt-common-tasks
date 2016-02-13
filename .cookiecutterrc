@@ -26,7 +26,7 @@ default_context:
     command_line_interface:    'no'
     command_line_interface_bin_name: 'nameless'
     coveralls:                 'no'
-    distribution_name:         '40wt-common-tasks-distribution'
+    distribution_name:         '40wt-common-tasks'
     email:                     'svetlyak.40wt@gmail.com'
     full_name:                 'Alexander Artemenko'
     github_username:           'svetlyak40wt'

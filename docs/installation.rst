@@ -4,4 +4,4 @@ Installation
 
 At the command line::
 
-    pip install 40wt-common-tasks-distribution
+    pip install 40wt-common-taskss
