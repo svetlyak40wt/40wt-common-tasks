@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='40wt-common-tasks',
-    version='0.1.0',
+    version='0.2.0',
     license='BSD',
     description='A collection of tasks for python invoke, to build and maintain python projects.',
     long_description='%s\n%s' % (
