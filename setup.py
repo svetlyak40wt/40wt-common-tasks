@@ -64,7 +64,8 @@ setup(
         # eg: 'keyword1', 'keyword2', 'keyword3',
     ],
     install_requires=[
-        # eg: 'aspectlib==1.1.1', 'six>=1.7',
+        # in 0.13.0 invoke requires all tasks accept Context as first parameter
+        'invoke>=0.13.0',
     ],
     extras_require={
         # eg:
