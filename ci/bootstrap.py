@@ -12,7 +12,7 @@ from os.path import abspath
 
 if __name__ == "__main__":
     base_path = dirname(dirname(abspath(__file__)))
-    print(("Project path: {0}".format(base_path)))
+    print("Project path: {0}".format(base_path))
     env_path = join(base_path, ".tox", "bootstrap")
     if sys.platform == "win32":
         bin_path = join(env_path, "Scripts")
@@ -20,7 +20,7 @@ if __name__ == "__main__":
         bin_path = join(env_path, "bin")
     if not exists(env_path):
         import subprocess
-        print(("Making bootstrap env in: {0} ...".format(env_path)))
+        print("Making bootstrap env in: {0} ...".format(env_path))
         try:
             subprocess.check_call(["virtualenv", env_path])
         except Exception:
@@ -49,5 +49,5 @@ if __name__ == "__main__":
     for name in os.listdir(join("ci", "templates")):
         with open(join(base_path, name), "w") as fh:
             fh.write(jinja.get_template(name).render(tox_environments=tox_environments))
-        print(("Wrote {}".format(name)))
+        print("Wrote {}".format(name))
     print("DONE.")
