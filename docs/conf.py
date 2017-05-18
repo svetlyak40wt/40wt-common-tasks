@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+
 
 import os
 
@@ -22,11 +22,11 @@ if os.getenv('SPELLCHECK'):
 
 source_suffix = '.rst'
 master_doc = 'index'
-project = u'40wt-common-tasks'
-year = u'2016'
-author = u'Alexander Artemenko'
+project = '40wt-common-tasks'
+year = '2016'
+author = 'Alexander Artemenko'
 copyright = '{0}, {1}'.format(year, author)
-version = release = u'0.2.0'
+version = release = '0.2.0'
 
 pygments_style = 'trac'
 templates_path = ['.']
