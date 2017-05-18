@@ -96,5 +96,5 @@ def is_dirty_workdir():
 def check_if_dirty(ctx):
     yes = is_dirty_workdir()
     if yes:
-        print 'Please, commit/ignore all files and push to upstream.'
+        print('Please, commit/ignore all files and push to upstream.')
         sys.exit(1)
